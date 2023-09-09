@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- TODO: Include Font Awesome file here -->
+    <!-- TODO: Include Google Fonts file here -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montez&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <link rel="stylesheet" href="styles/index.css" />
+  <link rel="stylesheet" href="/styles/common.css" />
+
+  <body>
+    <!-- TODO: Include all your code for the header and home page here -->
+    <img src="images/background.jpg" id="bg-img" alt="" srcset="" />
+    <header>
+      <div id="icon">
+        <span id="logo">ScriBBler</span>
+        <span id="sub-logo">Explore, Imagine, Create</span>
+      </div>
+      <div id="h-btn">
+        <button id="sign-up">Sign Up</button>
+        <button id="sign-in">Sign In</button>
+        <!-- id="sign-in" id="sign-up" -->
+      </div>
+    </header>
+    <div id="btn-cnt">
+      <a href="html/postslist.html"><button>All Posts</button></a>
+      <button id="cp-btn">Create Post</button>
+    </div>
+
+    <!-- sign-up modal -->
+    <div id="modal1">
+      <form id="modal-cnt1">
+        <div id="m-head1">
+          <h2>Get Started</h2>
+          <span class="close">&times;</span>
+        </div>
+        <label for="">Name</label>
+        <input
+          type="text"
+          name=""
+          id=""
+          placeholder="Enter Your name"
+          required
+        />
+        <label for="">Username</label>
+        <input
+          type="text"
+          name=""
+          id=""
+          placeholder="Enter your Username"
+          required
+        />
+        <label for="">Password</label>
+        <input type="password" placeholder="Enter your Password" required />
+        <label for="">Confirm Password</label>
+        <input type="password" placeholder="Re-enter your password" required />
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+    <!-- sign-in modal -->
+    <div id="modal2">
+      <form action="" id="modal-cnt2">
+        <div id="m-head2">
+          <h2>Welcome Back!</h2>
+          <span class="close1">&times;</span>
+        </div>
+        <label for="">Username</label>
+        <input type="text" placeholder="Enter your usename" required />
+        <label for="">Password</label>
+        <input
+          type="password"
+          name=""
+          id=""
+          placeholder="Enter your password"
+          required
+        />
+        <button type="submit">Sign In</button>
+        <div id="s1">Not a member? <a href="#" id="sign-up-l">Sign Up</a></div>
+      </form>
+    </div>
+    <div id="modal3">
+      <form action="" id="modal-cnt3">
+        <div id="phead">
+          <h2>Pen Your Post</h2>
+          <span class="close2">&times;</span>
+        </div>
+        <label for="">Title</label>
+        <input type="text" placeholder="Enter title of your post">
+        <label for="">Contents</label>
+        <input id="if" type="text" placeholder="Enter the contents of your post">
+        <button>Create</button>
+      </form>
+    </div>
+  </body>
+  <script src="scripts/common.js"></script>
+  <script src="scripts/index.js"></script>
+</html>
